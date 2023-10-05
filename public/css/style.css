@@ -1,0 +1,249 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+
+.animation {
+    margin-top: 40px;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anime {
+    margin: 0;
+    height: 500px;
+    width: 500px;
+    background-color: #962715;
+    border-radius: 50%;
+    background-image: url(my-profile2.jpg);
+    background-position: top;
+    background-size: cover;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    rotate: 90deg; */
+}
+
+.anime1 {
+    margin: 0;
+    background-color: white;
+    height: 275px;
+    width: 275px;   
+    display: inline-block;
+}
+
+.name {
+    display: flex;
+    position: relative;
+    top: 30px;
+    left: 10px;
+    font-weight: 900;
+    letter-spacing: 0.9rem;
+    text-transform: uppercase;
+    width: 250px;
+}
+.anime2 {
+    background-color: black;
+    height: 225px;
+    width: 225px;
+    background-image: linear-gradient(60deg, #22c39d, #fdbb2d);
+}
+
+.anime3 {
+    background-color: #138d90;
+    rotate: 135deg;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.anime4 {
+    background-color: gold;
+    height: 150px;
+    width: 150px;
+    rotate: 180deg;
+    
+}
+.anime5 {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    rotate: 180deg;
+}
+
+.anime5a {
+    background-color: #bbc3c6;
+    height: 100px;
+    width: 100px;
+    rotate: 225deg;
+    background-image: url(my-profile1.jpg);
+    background-size: contain;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.anime6a {
+    background-color: white;
+    height: 55px;
+    width: 55px;
+    rotate: 0deg;
+    border-radius: 50%;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+}
+
+.anime6a p {
+    margin: 0;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+    animation : none;
+    font-weight: 900;
+}
+
+
+@keyframes example {
+    from {
+        transform: rotate(-360deg);
+
+    }
+    to { 
+        transform: rotate(0deg);  
+    }
+  }
+
+  @keyframes anime5a {
+    from {
+        transform: rotate(0deg);
+
+    }
+    to { 
+        transform: rotate(360deg);  
+    }
+  }
+
+  /* home */
+
+  /*nav bar styling  */
+.nav-bar{
+    padding: 1rem ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #bbc3c6;
+}
+
+/* profile icon image styling  */
+.icon{
+    margin: 0.2rem;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    background-image: url(my-profile.jpg);
+    background-size: cover;
+    margin-right: 0.2rem;
+}
+
+/* style tabs on navbar */
+.tab{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.8rem;
+}
+
+nav .nav-bar-tab{
+    all: inherit;
+    color: #000;
+    margin: 0 0.5rem 0;
+}
+
+/* on hovering navbar tabs */
+nav a:hover{
+    color: #641085;
+    transition: 0.5s, linear;
+}
+
+footer{
+    margin-top: 10px;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(3, 71, 49);
+}
+
+  /* face plate */
+
+i {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.body-set {
+    height: 1050px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.picture {
+    width: 30%;
+    height: 95%;
+    margin-left: 5px;
+    background-color: aliceblue;
+}
+
+/* @media(width<= 550px)and(width<=420px){
+    .picture {
+        width: 40%;
+    }
+    .content {
+        width: 100%;
+    }
+    .animation {
+        width: 120%;
+        height: 120%;
+    }
+    
+} */
+
+.profile-pic {
+    background-image: url(my-profile1.jpg);
+    object-fit: inherit;
+    background-size: 330px 280px;
+    height: 25%;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.title {
+    margin: 0;
+    color: white;
+    padding-bottom: 0.85rem;
+}
+
+
+.basic-info {
+    height: 20%;
+}
+
+.basic-info p {
+    font-size: 0.85rem;
+    padding: 0.5rem;
+}
+
+/* right side info box */
+.content {
+    width: 70%;
+    height: 95%;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: aliceblue;
+}
